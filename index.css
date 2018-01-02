@@ -1,3 +1,43 @@
-h1{
-font-style:georgia;
+.header{
+  background:black;
+  color:white;
+  overflow:auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.logo{
+  background:red;
+  display: inline-block;
+  float: left;
+  margin-right: 25px;
+  padding: 20px;
+}
+.leftMenu{
+  background:blue;
+  display: inline-block;
+  float: left;
+}
+.leftMenu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.leftMenu li{
+  display: inline-block;
+  padding: 20px;
+}
+.rightMenu{
+  float:right;
+  display: inline-block;
+  background: yellow;
+  color:black;
+}
+.rightMenu ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.rightMenu li{
+  display: inline-block;
+  padding: 20px;
 }
